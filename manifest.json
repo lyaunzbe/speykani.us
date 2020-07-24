@@ -1,7 +1,7 @@
 {
   "name": "speykani.us",
   "short_name": "speykani.us",
-  "start_url": "/",
+  "start_url": "/speykani.us",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
