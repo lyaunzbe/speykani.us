@@ -1,51 +1,38 @@
 {
+  "name": "speykani",
+  "version": "0.1.0",
+  "homepage": "https://lyaunzbe.github.io/speykani.us/",
   "private": true,
-  "name": "speykani.us",
-  "homepage": "https://lyaunzbe.github.io/speykani.us",
-
-  "version": "0.0.0",
-  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-instagram-embed": "^1.5.0",
+    "react-scripts": "3.4.1"
+  },
   "scripts": {
-    "build": "preact build --no-prerenderUrls --no-sw --no-preload --no-prerender",
-    "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
-    "lint": "eslint src",
-    "test": "jest",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "deployGH": "yarn run build && gh-pages -d build"
-
   },
   "eslintConfig": {
-    "extends": "preact",
-    "ignorePatterns": [
-      "build/"
-    ]
+    "extends": "react-app"
   },
-  "devDependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-preact-pure": "^2.0.0",
-    "eslint": "^6.0.1",
-    "eslint-config-preact": "^1.1.0",
-    "gh-pages": "^3.1.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^24.9.0",
-    "jest-preset-preact": "^1.0.0",
-    "node-sass": "^4.14.1",
-    "preact-cli": "^3.0.0",
-    "preact-render-spy": "^1.2.1",
-    "sass-loader": "^9.0.2",
-    "sirv-cli": "1.0.3"
-  },
-  "dependencies": {
-    "preact": "^10.3.2",
-    "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1",
-    "react-instagram-embed": "^1.5.0"
-  },
-  "jest": {
-    "preset": "jest-preset-preact",
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js",
-      "<rootDir>/tests/__mocks__/setupTests.js"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   }
 }
