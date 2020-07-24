@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9c097380fffde722a76a4bb9c4dffce",
+    "revision": "47517ccd6bab616127601e9e226bdb99",
     "url": "/speykani.us/index.html"
   },
   {
-    "revision": "7731bb840c3c5e431398",
-    "url": "/speykani.us/static/css/main.793b6ab4.chunk.css"
+    "revision": "807dde4f6139e07e7a96",
+    "url": "/speykani.us/static/css/main.fc70ee93.chunk.css"
   },
   {
     "revision": "5db405c1c50bbaa2ce8e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/speykani.us/static/js/2.84cc0fc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7731bb840c3c5e431398",
-    "url": "/speykani.us/static/js/main.0de7344e.chunk.js"
+    "revision": "807dde4f6139e07e7a96",
+    "url": "/speykani.us/static/js/main.bc4b938a.chunk.js"
   },
   {
     "revision": "a6455b10429567aacda3",
