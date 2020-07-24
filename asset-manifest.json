@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/speykani.us/static/css/main.077a1f8a.chunk.css",
+    "main.css": "/speykani.us/static/css/main.793b6ab4.chunk.css",
     "main.js": "/speykani.us/static/js/main.0de7344e.chunk.js",
     "main.js.map": "/speykani.us/static/js/main.0de7344e.chunk.js.map",
     "runtime-main.js": "/speykani.us/static/js/runtime-main.f2714065.js",
@@ -8,16 +8,16 @@
     "static/js/2.84cc0fc7.chunk.js": "/speykani.us/static/js/2.84cc0fc7.chunk.js",
     "static/js/2.84cc0fc7.chunk.js.map": "/speykani.us/static/js/2.84cc0fc7.chunk.js.map",
     "index.html": "/speykani.us/index.html",
-    "precache-manifest.779adb649374f7a0476ea23f1230073a.js": "/speykani.us/precache-manifest.779adb649374f7a0476ea23f1230073a.js",
+    "precache-manifest.cab107af7e9009488a34c4fef75546a5.js": "/speykani.us/precache-manifest.cab107af7e9009488a34c4fef75546a5.js",
     "service-worker.js": "/speykani.us/service-worker.js",
-    "static/css/main.077a1f8a.chunk.css.map": "/speykani.us/static/css/main.077a1f8a.chunk.css.map",
+    "static/css/main.793b6ab4.chunk.css.map": "/speykani.us/static/css/main.793b6ab4.chunk.css.map",
     "static/js/2.84cc0fc7.chunk.js.LICENSE.txt": "/speykani.us/static/js/2.84cc0fc7.chunk.js.LICENSE.txt",
     "static/media/App.css": "/speykani.us/static/media/GoodGlyphs-No1.cc9c1a66.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.f2714065.js",
     "static/js/2.84cc0fc7.chunk.js",
-    "static/css/main.077a1f8a.chunk.css",
+    "static/css/main.793b6ab4.chunk.css",
     "static/js/main.0de7344e.chunk.js"
   ]
 }
