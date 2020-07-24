@@ -1,0 +1,122 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #FAFAFA;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+
+@font-face {
+	font-family: 'good-glyphs';
+	src: url(da5c70fa89f8f3067a6139c4a0801141.ttf);
+  }
+
+.home__MseGd {
+	padding: 2rem 2rem;
+	min-height: 100%;
+	width: 100%;
+}
+
+.ico__1Gdp0 {
+	font-family:'good-glyphs';
+	float: right;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+	font-size: 6rem;
+	padding: 1rem 1rem;
+	cursor: pointer;
+}
+
+.name_card__3JNwV {
+	padding: 1rem 1rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	max-width: 700px;
+	margin-bottom:1.5rem;
+
+	background: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
+	background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+	background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+	animation: border-dance__3T7SS 20s infinite linear;
+}
+
+@keyframes border-dance__3T7SS {
+	0% {
+	  background-position: 0 0, 100% 100%, 0 100%, 100% 0;
+	}
+	100% {
+	  background-position: 100% 0, 0 100%, 0 0, 100% 100%;
+	}
+  }
+
+.samples_header__JzLHx {
+	font-size: 1.35rem;
+	font-style: italic;
+}
+.samples__12b9T {
+	padding-top: 1rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	    flex-direction: column;
+	width: 560px;
+	margin: 0 auto;
+}
+
+.sample_item__1QS61 {
+	padding: 2rem 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+.sav__3EwNr {
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.sav_email__3VD0q {
+	text-decoration: none;
+	color: #444;
+	font-size: 1.35rem;
+}
+
+.sav_email__3VD0q:hover {
+	text-decoration: underline;
+}
+
+.sample_item_media__3tRAV {
+
+}
+
+.sample_item_media__3tRAV iframe {
+}
+
+.sample_item_role__2x0ty {
+	font-size: 1.15rem;
+	padding-top: .75rem;
+}
+/* 
+@media only screen and (max-width: 768px) {
+	.sample_item_media iframe {
+		width:100%;
+	}
+} */
+
+
+/*# sourceMappingURL=ssr-bundle.0ceb0.css.map*/
