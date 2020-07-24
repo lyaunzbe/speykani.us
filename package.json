@@ -1,14 +1,18 @@
 {
   "private": true,
   "name": "speykani.us",
+  "homepage": "https://lyaunzbe.github.io/speykani.us",
+
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --no-prerenderUrls --no-sw --no-preload --no-prerender",
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "deployGH": "yarn run build && gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": "preact",
